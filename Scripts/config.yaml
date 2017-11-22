@@ -1,0 +1,11 @@
+settings:
+  username: tableau_server_username
+  password: tableau_server_password
+  url: https://tableau_server_url
+  shorturl: tableau_server_url
+  postgres_user: readonly
+  postgres_password: password
+  postgres_database: workgroup
+  postgres_port: 8060
+  token: slack_token - get from Slack API
+  archive: where you want your workbooks and stuff to live
