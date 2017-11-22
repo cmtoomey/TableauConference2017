@@ -12,7 +12,7 @@ ssm = boto3.client('ssm')
 def lambda_handler(event, context):
     print('Running Cleanup')
     response = ssm.send_command(
-        InstanceIds=['mi-08ec007336c8b7e81'],
+        InstanceIds=['ID'],
         DocumentName='AWS-RunPowerShellScript',
         Parameters={ "commands":[ "tabadmin cleanup; tabadmin cleanup --restart" ]}
     )
