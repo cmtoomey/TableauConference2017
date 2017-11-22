@@ -1,6 +1,8 @@
 # Tableau Conference 2017
 If you attended my session, watched it on Tableau Live, heard about it, or are just trolling GitHub for Tableau Server-related stuff, this is the repo for you!
 
+In case you haven't seen the presentation - it can be found [here](https://www.dropbox.com/s/pcbj7bcbualajjj/Zillow%20TC17.pptx?dl=0)
+
 Everything you see here was developed during my time at Zillow, and is in use there. 
 
 In instances where the workbooks or scripts need explanation, it will be provided. In the cases of the workbooks, you will likely need to swap out your own content instead of my placeholders (which are there so nothing proprietary or protected is shared).
@@ -9,7 +11,7 @@ I'm happy to discuss the content, but since I'm no longer at Zillow, issues will
 
 ---
 
-My presentation and the Style-Guide document is included in the top level, for the rest I've segmented the Scripts into the `Scripts` folder, and Workbooks into the `Workbooks` folder. Please see those for specific instructions.
+The Style-Guide document is included in the top level, for the rest I've segmented the Scripts into the `Scripts` folder, and Workbooks into the `Workbooks` folder. Please see those for specific instructions.
 
 Note: All but one piece of automation is written in Python2, the other one is written in Node.
 
