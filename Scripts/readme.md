@@ -48,3 +48,4 @@ Some/most of the scripts also have jupyter notebooks so you can see each step in
 + Permissions: Archive all workbook permissions to Dynamo
 + Sandbox: Compare list of users to list of Sandbox projects and create new ones as needed.
 + Restart: This is how to use SSM to do command-line activities on Tableau Server. It requires you to either be running Tableau Server in AWS, or have a managed instance on-premise. It also recommends (but not requires) you to have tabadmin on path. If you don't know how to do this, you can run tabadmin.js
++ Tabadmin: This is a node script that will accept a Drive letter (D:) and a version number. It will then place tabadmin onto your path so you can call it anywhere on the command line or in scripts directly.
