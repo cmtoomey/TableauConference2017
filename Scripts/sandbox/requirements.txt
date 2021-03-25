@@ -8,7 +8,7 @@ idna==2.5
 jmespath==0.9.3
 pycrypto==2.6.1
 python-dateutil==2.6.1
-PyYAML==3.12
+PyYAML==5.4
 requests==2.18.2
 s3transfer==0.1.10
 six==1.10.0
