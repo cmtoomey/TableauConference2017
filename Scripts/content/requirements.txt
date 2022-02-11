@@ -25,6 +25,6 @@ requests==2.18.1
 service-identity==17.0.0
 six==1.10.0
 slacker==0.9.50
-Twisted==17.5.0
+Twisted==22.1.0
 urllib3==1.21.1
 zope.interface==4.4.2
